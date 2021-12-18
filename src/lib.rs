@@ -1,4 +1,4 @@
-//! Tracing-subscribe now has a bug in LocalTime, so build ourselves' to fix it.
+//! Tracing-subscriber now has a bug in LocalTime, so build ourselves' to fix it.
 //! In this patch, we use fixed timezone +8 for China usage.
 
 use std::fmt;
