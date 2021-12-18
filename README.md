@@ -10,7 +10,7 @@ Cargo.toml:
 ```toml
 [dependencies]
 time = { version = "0.3", features = ["macros"] }
-tracing-subscriber = { version = "3.3", features = ["fmt", "std", "time", "local-time"] }
+tracing-subscriber = { version = "0.3", features = ["fmt", "std", "time", "local-time"] }
 tracing-local-time = { git = "https://github.com/clia/tracing-local-time.git" }
 ```
 
