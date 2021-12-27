@@ -1,8 +1,13 @@
 # tracing-local-time
-A patch to fix tracing LocalTime problem.
+
+A patch to fix tracing LocalTime problem. `Deprecated`
 
 Tracing-subscriber now has a bug in LocalTime, so build ourselves' to fix it.
 In this patch, we use fixed timezone +8 for China usage.
+
+## Deprecated
+
+Use this crate: [clia-local-time](https://crates.io/crates/clia-local-time)
 
 ## Example
 
